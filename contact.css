@@ -1,0 +1,203 @@
+.side-bar{
+    background-color: rgba(0,0,0,0);
+}
+
+.contact{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    right: 60px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+    animation: text 1.5s linear 1;
+}
+
+.contact-me{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.contact-me p{
+    color: whitesmoke;
+    font-size: 40px;
+    animation: contact 4s linear 1;
+}
+
+.enter{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+.email{
+    position: absolute;
+    top: 26%;
+    left: 25%;
+}
+.message{
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
+
+.submit{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    animation: send 3s linear 1;
+}
+
+.send{
+    padding: 9px 25px;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0 3px 0 3px black;
+    animation: send 3s linear 1;
+}
+
+.send:hover{
+     cursor: pointer;
+     background-color: cadetblue;
+     color: white;
+    
+}
+
+input{
+ font-size: 20px;
+ padding: 5px;
+ border-style: none;
+}
+
+textarea{
+    font-size: 20px;
+    padding: 5px;
+}
+
+svg{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    z-index: -1;
+    animation: imgSvg 2s linear 1;
+}
+
+
+
+@keyframes imgSvg{
+    0% {opacity: 0;}
+    50% {opacity: 0.2;}
+    75% {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+
+@keyframes send{
+    from{left: -100%;}
+    to{left: 25%;}
+    0% {opacity: 0;}
+    50% {opacity: 0.2;}
+    95% {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+
+@keyframes contact{
+    0%{opacity: 0;}
+    90%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@media(max-width:420px){
+    .contact{
+        font-size: 14px;
+        right: 40px;
+        top: 20px;
+    }
+    .contact-me p{
+        font-size: 20px;
+    }
+    .contact-me{
+        left: 17%;
+        top:10%;
+    }
+    svg{
+        width: 400px;
+        height: 400px;
+        top:40%;
+        left: 0%;
+    }
+    input , textarea{
+        font-size: 13px;
+    }
+    .enter , .email , .message{
+        left: 20%;
+    }
+    .enter{
+        top:22%;
+    }
+    .email{
+        top:28%
+    }
+    .message{
+        top:34%;
+    }
+    .send{
+        font-size: 15px;
+    }
+    .submit{
+        top: 45%;
+        left: 20%;
+    }
+    @keyframes send {
+        from{left: -100%;}
+    to{left: 20%;}
+    0%{opacity: 0.2;}
+    50%{opacity: 0.2;}
+    90%{opacity: 0.5;}
+    100%{opacity: 1;}
+    }
+}
+
+@media(max-width:330px){
+    .contact{
+        font-size: 12px;
+        right: 20px;
+        top: 40px;
+    }
+    .contact-me p{
+        font-size: 15px;
+    }
+    .contact-me{
+        left: 19%;
+        top:15%;
+    }
+    svg{
+       width: 290px;
+       height: 290px;
+       left: 3%;
+       top: 50%;
+    }
+    input , textarea{
+        font-size: 12px;
+    }
+    .send{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:360px){
+    .contact-me p{
+        font-size: 17px;
+    }
+    svg{
+        left: 5%;
+        top: 52%;
+        height: 270px;
+        width: 270px;
+    }
+}
