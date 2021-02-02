@@ -186,6 +186,7 @@ svg{
     }
     input , textarea{
         font-size: 12px;
+        margin-top: 5%;
     }
     .send{
         font-size: 13px;
