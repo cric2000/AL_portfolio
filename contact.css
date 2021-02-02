@@ -17,30 +17,32 @@
 
 .contact-me{
     position: absolute;
-    top: 20%;
-    left: 60%;
+    top: 15%;
+    left: 25%;
 }
 
 .contact-me p{
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 35px;
     animation: contact 4s linear 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cadetblue;
 }
 
 .enter{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 25%;
 
 }
 .email{
     position: absolute;
-    top: 26%;
+    top: 31%;
     left: 25%;
 }
 .message{
     position: absolute;
-    top: 32%;
+    top: 37%;
     left: 25%;
 }
 
@@ -170,17 +172,17 @@ svg{
         top: 40px;
     }
     .contact-me p{
-        font-size: 15px;
+        font-size: 8px;
     }
     .contact-me{
-        left: 19%;
-        top:15%;
+        left: 6%;
+        top:55%;
     }
     svg{
-       width: 290px;
-       height: 290px;
-       left: 3%;
-       top: 50%;
+       width: 280px;
+       height: 280px;
+       left: 0%;
+       top: 100%;
     }
     input , textarea{
         font-size: 12px;

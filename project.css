@@ -74,51 +74,51 @@ svg{
 
 .box-1:hover{
   cursor: pointer;
-  background-color: cadetblue;
+  background-color: rgba(23, 228, 235, 0.6);
   border: black;
-  color: black;
+  color: rgba(0,0,0,1);
   /* box-shadow: 3px 0px 3px 3px cadetblue; */
 }
 
 .box-2:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background-color: rgba(23, 228, 235, 0.6);
     border: black;
-    color: black;
+    color: rgba(0,0,0,1);
     /* box-shadow: 3px 0px 3px 3px cadetblue; */
    
   }
 
   .box-3:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background-color: rgba(23, 228, 235, 0.6);
     border: black;
-    color: black;
+    color: rgba(0,0,0,1);
     /* box-shadow: 3px 0px 3px 3px cadetblue; */
   }
 
   .box-4:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background-color: rgba(23, 228, 235, 0.6);
     border: black;
-    color: black;
+    color: rgba(0,0,0,1);
     /* box-shadow: 3px 0px 3px 3px cadetblue; */
   
   }
 
   .box-5:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background-color: rgba(23, 228, 235, 0.6);
     border: black;
-    color: black;
+    color: rgba(0,0,0,1);
     /* box-shadow: 3px 0px 3px 3px cadetblue; */
     
   }
   .box-6:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background-color: rgba(23, 228, 235, 0.6);
     border: black;
-    color: black;
+    color: rgba(0,0,0,1);
     /* box-shadow: 3px 0px 3px 3px cadetblue; */
    
   }
@@ -233,6 +233,9 @@ svg{
         top: 51%;
         left: 5%;
         
+    }
+    .height{
+        font-size: 10px;
     }
 
 }

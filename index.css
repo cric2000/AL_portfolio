@@ -31,10 +31,10 @@ ul{
 }
 .name{
     display: none;
-    font-size: 22px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     /* right: 8%; */
-    margin-top: 5%;
+    margin-top: 12%;
     position: relative;
 }
 .icon{
@@ -204,6 +204,10 @@ ul{
          right: 0px;
          height: 280px;
          width: 280px;
+    }
+    .name{
+       margin-top: 14%;
+       font-size: 9px;
     }
 }
 
