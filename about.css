@@ -170,14 +170,7 @@ svg{
         left: 50px;
         top: 45%;
         transform: rotate(270deg);
-        animation: gif 17s linear 1;
         display: none;
-    }
-    
-    @keyframes gif{
-        0%{opacity: 0;}
-        90%{opacity: 0;}
-        100%{opacity: 1;}
     }
     
 }
